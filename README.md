@@ -9,4 +9,5 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 =======
 # Data-Analytics
->>>>>>> 8e396998bf90c747beab0ceb51fa10b62570932d
+
+![Alt text](public/data-analytic.png)
