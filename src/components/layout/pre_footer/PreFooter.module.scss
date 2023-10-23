@@ -1,0 +1,126 @@
+@import '/src/assets/styles/variables';
+@import '/src//assets/styles/adaptive';
+
+.pre_footer {
+  margin-top: 80px;
+  
+
+  .pf_info {
+
+    h4 {
+      color: $dark_accent;
+      font-weight: 900;
+      font-size: 38px;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .line_image {
+      display: block;
+      margin: 0px auto;
+      margin-bottom: 40px;
+    }
+
+    .client_logo {
+      margin: 0 auto;
+    }
+  }
+
+  .form_wrapper {
+    background-color: $light_accent;
+    border-radius: 4px;
+    max-width: 480px;
+    margin: 0 auto;
+
+    form {
+      border-radius: 4px;
+      border: 1px solid $light_accent;
+      transform: translateY(-40px);
+      box-shadow: 0 10px 20px rgba(116, 116, 116, .16);
+      width: 86%;
+      margin: 0 auto;
+      background-color: $white;
+      padding: 36px 36px 24px;
+      text-align: center;
+
+      h4 {
+        color: $dark_accent;
+        font-size: 24px;
+        margin-bottom: 32px;
+        font-weight: 900;
+      }
+
+      input {
+        width: 100%;
+        outline: none;
+        display: block;
+        margin-bottom: 16px;
+        padding: 14px 24px;
+        border-radius: 4px;
+        background-color: $white;
+        border: 1px solid rgba(137, 137, 162, .5);
+        transition: border-color .4s ease-in-out;
+
+        &::placeholder {
+          color: $gray;
+          font-size: 16px;
+        }
+
+        &:focus {
+          border-color: lighten($accent, 10%);
+        }
+      }
+    }
+
+    .or {
+      margin: 20px auto 15px;
+      color: #000;
+      text-transform: uppercase;
+    }
+
+    a {
+      display: block;
+      max-width: 200px;
+      margin: 0 auto;
+      text-decoration: none;
+    }
+
+    .footer_form {
+      .line {
+        height: 1px;
+        width: 100%;
+        background-color: rgba(137, 137, 162, .5);
+        margin: 22px 0;
+      }
+    }
+
+    p {
+      font-size: 14px;
+      color: $gray;
+
+      a {
+        color: #1563FF;
+      }
+    }
+  }
+}
+
+.btn_form {
+  display: block;
+  padding: 14px;
+  color: $white;
+  background-color: $accent;
+  box-shadow: 0 3px 6px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  transition: border-radius .4s ease-in-out;
+  text-decoration: none;
+  cursor: pointer;
+  width: 100%;
+
+  &:hover {
+    border-radius: 30px;
+  }
+
+}

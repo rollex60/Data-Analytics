@@ -1,0 +1,44 @@
+@import '/src//assets/styles/variables';
+@import '/src//assets/styles/adaptive';
+
+.information {
+  .img_responsive {
+    margin: 0 auto;
+  }
+
+  .right_info {
+
+    h3 {
+      color: $dark_accent;
+      font-size: 38px;
+      font-weight: 900;
+      margin: 32px 0 16px;
+    }
+
+    .descr {
+      color: gray;
+      font-size: 18px;
+    }
+  }
+
+  .notif {
+    background-color: $light_accent;
+    border-radius: 30px;
+    padding: 10px 25px;
+    display: flex;
+    align-items: center;
+    max-width: max-content;
+    margin: 0 auto;
+    margin-bottom: 40px;
+
+    > img {
+      width: 26px;
+      height: auto;
+      margin-right: 7px;
+    }
+
+    p {
+      color: $accent;
+    }
+  }
+}
