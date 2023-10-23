@@ -10,4 +10,4 @@ Currently, two official plugins are available:
 =======
 # Data-Analytics
 
-![Alt text](public/images/data-analytic.png)
+![Alt text](/public/images/data-analytic.png)
